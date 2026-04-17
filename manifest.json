@@ -1,0 +1,8 @@
+{
+    "cacheDirectory": "D:\\winget-local-cache",
+    "packages": [
+        "Git.Git",
+        "Microsoft.VisualStudioCode",
+        "Notepad++.Notepad++"
+    ]
+}
