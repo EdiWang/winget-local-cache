@@ -1,8 +1,24 @@
 {
     "cacheDirectory": "D:\\winget-local-cache",
     "packages": [
+        "7zip.7zip",
+        "Audacity.Audacity",
+        "Docker.DockerDesktop",
+        "GitHub.GitHubDesktop",
         "Git.Git",
+        "GoLang.Go",
+        "Google.Chrome",
+        "Gyan.FFmpeg",
+        "IrfanSkiljan.IrfanView",
+        "Microsoft.AzureCLI",
+        "Microsoft.PowerShell",
         "Microsoft.VisualStudioCode",
-        "Notepad++.Notepad++"
+        "Mozilla.Firefox",
+        "Notepad++.Notepad++",
+        "OBSProject.OBSStudio",
+        "OpenJS.NodeJS.LTS",
+        "Tencent.WeChat.Universal",
+        "Telegram.TelegramDesktop",
+        "VideoLAN.VLC"
     ]
 }
