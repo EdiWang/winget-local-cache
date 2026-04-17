@@ -81,10 +81,14 @@ foreach ($packageId in $packages) {
     }
 
     # Download the latest version
+    # Use Push-Location instead of -d so winget creates the {PackageId}_{Version} subdirectory
     Write-Host "Downloading $packageId v$latestVersion ..." -ForegroundColor Yellow
-    & winget download --id $packageId --exact -d $cacheDir --accept-package-agreements --accept-source-agreements
+    Push-Location $cacheDir
+    & winget download --id $packageId --exact --accept-package-agreements --accept-source-agreements
+    $downloadExitCode = $LASTEXITCODE
+    Pop-Location
 
-    if ($LASTEXITCODE -eq 0) {
+    if ($downloadExitCode -eq 0) {
         Write-Host "Downloaded successfully." -ForegroundColor Green
 
         # Remove old versions if -DeleteOld was specified
@@ -96,7 +100,7 @@ foreach ($packageId in $packages) {
         }
     }
     else {
-        Write-Warning "Download failed for $packageId (exit code: $LASTEXITCODE)."
+        Write-Warning "Download failed for $packageId (exit code: $downloadExitCode)."
     }
 }
 
