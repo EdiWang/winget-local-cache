@@ -1,5 +1,5 @@
 {
-    "cacheDirectory": "D:\\winget-local-cache",
+    "cacheDirectory": "I:\\Applications",
     "packages": [
         "7zip.7zip",
         "Audacity.Audacity",
