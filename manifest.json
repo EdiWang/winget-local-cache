@@ -4,6 +4,7 @@
         "7zip.7zip",
         "Audacity.Audacity",
         "Docker.DockerDesktop",
+		"Devolutions.RemoteDesktopManager",
         "GitHub.GitHubDesktop",
         "Git.Git",
         "GoLang.Go",
@@ -11,14 +12,21 @@
         "Gyan.FFmpeg",
         "IrfanSkiljan.IrfanView",
         "Microsoft.AzureCLI",
+		"Microsoft.Bicep",
+		"Microsoft.DotNet.SDK",
+		"Microsoft.OneDrive",
         "Microsoft.PowerShell",
+		"Microsoft.Teams",
         "Microsoft.VisualStudioCode",
         "Mozilla.Firefox",
         "Notepad++.Notepad++",
         "OBSProject.OBSStudio",
         "OpenJS.NodeJS.LTS",
+		"Postman.Postman",
         "Tencent.WeChat.Universal",
         "Telegram.TelegramDesktop",
-        "VideoLAN.VLC"
+        "VideoLAN.VLC",
+		"WinSCP.WinSCP",
+		"Xmind.Xmind"
     ]
 }
